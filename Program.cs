@@ -17,7 +17,7 @@ namespace Mission2assignment
             // turn the throws from a string into an integer
             int ithrows = Int32.Parse(throws);
 
-            Console.WriteLine("");
+            Console.WriteLine(" ");
 
             //for the number of throws the user wants to throw, roll two die (add one because it starts at 0 and goes to 5 and we need 6) and then add them together
             for (int i = 0; i < ithrows; i++)
